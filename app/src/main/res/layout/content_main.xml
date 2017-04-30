@@ -12,18 +12,19 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="70dp"
-        android:layout_height="73dp"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
         android:layout_centerInParent="true"
         android:background="@drawable/restaurant"
         android:onClick="onClickRes" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="85dp"
-        android:layout_height="79dp"
+        android:layout_width="76dp"
+        android:layout_height="73dp"
         android:layout_above="@id/imageButton"
         android:layout_centerHorizontal="true"
         android:background="@drawable/club"
@@ -43,4 +44,32 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:id="@+id/content_frame"/>
+
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:text="התחבר"
+
+        />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הרשם"
+        android:layout_alignBaseline="@+id/bLogin"
+        android:layout_alignBottom="@+id/bLogin"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2"
+        />
+
+
 </RelativeLayout>
